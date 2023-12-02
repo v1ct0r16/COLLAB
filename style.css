@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Navbar style begins here */
+nav {
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 30px; 
+    background-color: black;
+    color: white;
+
+    
+  }
+  .companyname{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .bit{
+    font-size: 50px;
+    font-family: 'Bruno Ace SC';
+  }
+  .blacks {
+    font-size: 10px;
+    font-weight: 22px;
+
+  }
+  .foundation{
+    font-size: 10px;
+    font-weight: 32px;
+  }
+
+  li {
+    text-decoration: none;
+    color: black;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-inline: 15px;
+    color: white;
+  }
+  .btn{
+    background-color: green;
+    border-radius: 10px;
+    padding: 8px;
+  }
+  /* nav style ends here */
