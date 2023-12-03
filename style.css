@@ -46,5 +46,6 @@ nav {
     background-color: green;
     border-radius: 10px;
     padding: 8px;
+    border: none;
   }
   /* nav style ends here */
